@@ -1,5 +1,5 @@
 /* Quiz Arena service worker – offline support only; never alters the game. */
-const VERSION = 'v1';
+const VERSION = 'v2';
 const CORE_CACHE = 'quiz-arena-core-' + VERSION;
 const RUNTIME_CACHE = 'quiz-arena-runtime-' + VERSION;
 const CORE_ASSETS = [
